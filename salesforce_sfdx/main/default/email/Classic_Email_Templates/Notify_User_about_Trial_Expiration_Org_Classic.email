@@ -1,0 +1,14 @@
+<html style="overflow-y: hidden;">
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hi,&nbsp;<br />
+<br />
+&nbsp;You are receiving this email because your Org&nbsp;{{{Organization.Id}}} - {{{Organization.Name}}} has been expired.<br />
+&nbsp;&nbsp;<br />
+&nbsp;- If you wish to extend it, you can do it throughout this link -&gt;&nbsp;<a href="https://central.qlabs.sfdc.sh/q-extender">https://central.qlabs.sfdc.sh/q-extender</a>&nbsp; passing as input your Org Id -&gt;&nbsp;{{{Organization.Id}}}.&nbsp;&nbsp;(VPN required)<br />
+&nbsp;<br />
+&nbsp;- You can login to your Org via -&gt;&nbsp;<a href="https://login.salesforce.com/">https://login.salesforce.com/&nbsp;</a><br />
+<br />
+&nbsp;Regards,</body>
+</html>

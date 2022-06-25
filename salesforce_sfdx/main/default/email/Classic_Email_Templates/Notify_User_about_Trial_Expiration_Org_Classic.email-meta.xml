@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Notify User about Trial Expiration Org in Classic Mode</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Notify User about Trial Expiration Org Classic</name>
+    <style>none</style>
+    <subject>Important! Your Org {{{Organization.Id}}} - {{{Organization.Name}}} has been expired</subject>
+    <textOnly>Hi,  
+
+You are receiving this email because your Org {{{Organization.Id}}} - {{{Organization.Name}}} has been expired. 
+
+ - If you wish to extend it, you can do it throughout this link -> https://central.qlabs.sfdc.sh/q-extender  passing as input your Org Id -> {{{Organization.Id}}}.  (VPN required)  
+
+ - You can login to your Org via -> https://login.salesforce.com/ 
+
+   Regards,</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>
