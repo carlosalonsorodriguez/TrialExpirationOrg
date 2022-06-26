@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
     <actionCalls>
-        <description>Send Email alert to user when the Org is expired</description>
-        <name>Send_Email_Alert_to_User</name>
-        <label>Send Email Alert to User</label>
+        <description>Send an email to the owner of the Org</description>
+        <name>Send_Email_alert_to_User</name>
+        <label>Send Email alert to User</label>
         <locationX>50</locationX>
         <locationY>396</locationY>
         <actionName>User.Notify_User_about_Trial_Expiration_Org</actionName>
@@ -32,7 +32,7 @@
                 </rightValue>
             </conditions>
             <connector>
-                <targetReference>Send_Email_Alert_to_User</targetReference>
+                <targetReference>Send_Email_alert_to_User</targetReference>
             </connector>
             <label>Org is Expired</label>
         </rules>
@@ -85,5 +85,5 @@
         </schedule>
         <triggerType>Scheduled</triggerType>
     </start>
-    <status>Active</status>
+    <status>Draft</status>
 </Flow>
